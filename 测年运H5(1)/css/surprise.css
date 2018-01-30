@@ -1,0 +1,68 @@
+.more{
+    height:100%;
+    width:100%;
+}
+.header{
+    position: relative;
+    height:20%;
+    width:100%;
+    line-height:30px;
+    display:flex;
+    justify-content: center;
+}
+.header>img{
+    height:100%;
+    width:100%;
+    z-index:-1;
+}
+.describe{
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:0;
+}
+.user{
+    height:40%;
+    width:100%;
+}
+.user img{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    margin-top:20px;
+}
+.describe p{
+    font-size: 30px;
+    font-weight:bold;
+    margin-top:20px;
+}
+.important{
+    height:80%;
+    width:100%;
+}
+.important img{
+    height:100%;
+    width:100%;
+}
+.footer{
+    position: fixed;
+    bottom:0;
+    z-index: 99;
+    height:20%;
+    width:100%;
+    background:pink;
+    text-align: center；
+}
+.footer p{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.footer button{
+    position: absolute;
+    top:0;
+    left:0;
+    height:30px;
+    line-height: 30px;
+    width:100px;
+    border-radius: 10px;
+}

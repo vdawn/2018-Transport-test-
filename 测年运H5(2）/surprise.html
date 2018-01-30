@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/surprise.css" />
+</head>
+
+<body>
+    <div class="content">
+        <!-- 需要保存的图片 -->
+        <div class="more"  id="more">
+            <div class="header">
+                <img src="images/user.jpg" alt="">
+                <div class="describe">
+                    <div class="user">
+                        <img src="images/pic.jpg" alt="">
+                        <span>文文的2018年年运是</span>
+                    </div>
+                    <p>一鸣惊人</p>
+                </div>
+            </div>
+            <div class="important">
+                <img src="images/important.jpg" alt="">
+            </div>
+        </div>
+        <!-- 用来遮盖二维码 -->
+        <div class="footer" id="parent">
+            <button id="btnSave" onclick="a()">点击保存图片</button>
+        </div>
+        <!-- 图片预览区 -->
+        <div id="images" style="width:100%;height:100%;float:left;display:none;"></div>
+    </div>
+    <!-- html2canvas将Dom节点在Canvas里边画出来 -->
+    <script src="js/html2canvas.min.js"></script>
+	<!-- 将canvas图片保存成图片 -->
+	<script src="js/canvas2image.js"></script>
+    <script src="js/base64.js"></script>
+    <script src="js/surprise.js"></script>
+</body>
+
+</html>
